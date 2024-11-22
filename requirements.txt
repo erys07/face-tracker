@@ -2,4 +2,4 @@ flask
 numpy
 opencv-python
 imutils
-dlib
+mediapipe
