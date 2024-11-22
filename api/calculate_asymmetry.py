@@ -17,7 +17,6 @@ def calculate_face_asymmetry(shape):
 
 def handler(request):
     if request.method == "POST":
-        # Extrair imagem da requisição
         file = request.files["image"]
         file_path = "/tmp/face_image.jpg"
         file.save(file_path)
